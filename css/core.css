@@ -604,7 +604,8 @@ tr:last-child td {
     .show-when-dark {
         display: block !important;
     }
-    .app-download .show-when-dark {
+    .app-download .show-when-dark,
+    #logo .show-when-dark {
         display: inline-block !important;
     }
     .show-when-light {
