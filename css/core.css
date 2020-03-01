@@ -521,7 +521,7 @@ tr:last-child td {
     padding-bottom: 0;
 }
 
-@media (min-width: 80rem) {
+@media (min-width: 800px) {
     body {
         font-size: 1.8rem;
         line-height: 3.1rem;
