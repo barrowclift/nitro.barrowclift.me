@@ -28,7 +28,6 @@
 
 	<!-- Facebook OpenGraph -->
 	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}">
-	<link rel="next" href="{{ site.url }}/page/2/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="{% if page.viewing_article %}article{% else %}website{% endif %}" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
