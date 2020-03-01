@@ -1,0 +1,21 @@
+---
+layout: home
+---
+
+{% assign year=0 %}
+{% for post in site.posts %}
+    {% capture postYear %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% if year != postYear %}
+        {% capture year %}{{ postYear }}{% endcapture %}
+        </ul>
+        <h2>{{ year }}</h2>
+        <ul class="summary-list">
+    {% endif %}
+    <li>
+        <h3 class="header">
+            <time itemprop="dateCreated">{{ post.date | date: "%B %-d" }}</time>
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
+        </h3>
+    </li>
+{% endfor %}
+</ul>

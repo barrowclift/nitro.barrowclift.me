@@ -1,0 +1,11 @@
+<menu>
+	<a href="/" id="logo">
+		<header>
+			{% if page.error %}
+			{% include logo-sad.html %}
+			{% else %}
+			{% include logo-happy.html %}
+			{% endif %}
+		</header>
+	</a>
+</menu>

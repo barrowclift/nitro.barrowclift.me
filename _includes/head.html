@@ -1,0 +1,57 @@
+<head>
+	{% if page.title %}
+	<title>{{page.title}}</title>
+	{% else %}
+	<title>{{site.title}}</title>
+	{% endif %}
+
+	<!-- Dark mode (reduces chance of flashing) -->
+	<style>@media(prefers-color-scheme:dark){html {background-color:rgb(34,34,34);color:white;}}</style>
+
+	<!-- Metadata -->
+	<meta name="application-name" content="Barrowclift" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+	{% feed_meta %}
+
+	<!-- Favicons -->
+	<link rel="mask-icon" href="{{ site.baseurl }}/pinned-tab.svg" color="#000000" />
+	<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
+	<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png" />
+
+	<!-- CSS -->
+	{% if jekyll.environment == "development" %}
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/core.css" type="text/css" />
+	{% else %}
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/core.min.css" type="text/css" />
+	{% endif %}
+
+	<!-- Facebook OpenGraph -->
+	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}">
+	<link rel="next" href="{{ site.url }}/page/2/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="{% if page.viewing_article %}article{% else %}website{% endif %}" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
+	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
+	{% if page.image %}
+	<meta property="og:image" content="{{ site.dropbox }}/{{ page.image }}"/>
+	{% else %}
+	<meta property="og:image" content="{{ site.url }}/share-banner.png"/>
+	{% endif %}
+	<meta property="og:site_name" content="{{ site.title }}" />
+	<meta property="fb:admins" content="1665270112" />
+
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@barrowclift" />
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}" />
+	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}{{ site.description }}{% endif %}" />
+	{% if page.image %}
+	<meta name="twitter:image" content="{{ site.dropbox }}/{{ page.image }}" />
+	{% else %}
+	<meta name="twitter:image" content="{{ site.url }}/share-banner.png" />
+	{% endif %}
+	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
+</head>
