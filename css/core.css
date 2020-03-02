@@ -74,6 +74,7 @@ pre {
     margin-left: 1.8rem;
     border-left: 2px solid rgb(216, 216, 216);
     overflow-x: scroll;
+    font-size: 1rem;
 }
 code {
     letter-spacing: -0.05em;
@@ -532,6 +533,7 @@ tr:last-child td {
     }
     pre {
         overflow-x: unset;
+        font-size: 1.8rem;
     }
 }
 
