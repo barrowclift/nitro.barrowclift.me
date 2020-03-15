@@ -159,7 +159,7 @@ Who am I kidding, the macOS emoji picker is the feature people will love the mos
 Why Apple to this day hides the date in the macOS Menu Bar clock, I'll never know. To check the date with the default settings, you'd need to open up Calender or check Notification Center&mdash;both of which are nonstarters. Checking the time *and* date should be as immediate and instinctual as glancing at a wristwatch or a family calendar on a nearby wall. If you agree, open up System Preferences, click on "Date & Time", and in the "Clock" tab check the box that says "Show the day of the week".
 
 <figure markdown="1">
-[![Image showing the macOS menu bar clock with the date displayed alongside the time]({{ site.dropbox }}/back-to-the-mac/menu-bar-date.jpg){: .menu-bar}]({{ site.dropbox }}/back-to-the-mac/menu-bar-date.jpg)]({{ site.dropbox }}/back-to-the-mac/menu-bar-date.jpg)
+[![Image showing the macOS menu bar clock with the date displayed alongside the time]({{ site.dropbox }}/back-to-the-mac/menu-bar-date.jpg){: .menu-bar }]({{ site.dropbox }}/back-to-the-mac/menu-bar-date.jpg)
 </figure>
 
 <div class="admonition yellow">

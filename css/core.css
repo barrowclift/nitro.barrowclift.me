@@ -359,8 +359,8 @@ hr,
     margin-bottom: 5.4rem;
 }
 .footnotes {
-    font-size: 1.5rem;
-    line-height: 2.625rem;
+    font-size: 0.83333em;
+    line-height: 1.8em;
 }
 .footnote {
     font-size: 0.75em;
@@ -477,9 +477,6 @@ th {
 td,
 th {
     text-align: left;
-}
-table th:first-child {
-    border-top-left-radius: 0.25em;
 }
 table td,
 table th {
