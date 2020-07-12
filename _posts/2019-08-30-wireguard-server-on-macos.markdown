@@ -2,7 +2,7 @@
 layout: article
 title: "Wireguard Server on macOS"
 date: 2019-08-30 20:15:26
-update: 2020-03-15 15:53:58-0400
+update: 2020-05-12 22:52:48-0400
 categories:
   - Technology
   - macOS
@@ -20,6 +20,12 @@ has_afterward: true
 <p>This is a revision of the <a href="/obsolete/wireguard-server-on-macos">first guide</a> originally published back in August 30, 2019.</p>
 <p>This revision contains a myriad of improvements <a href="https://github.com/barrowclift/barrowclift.github.io/issues/1">suggested</a> by <a href="https://lifepillar.me">lifepillar</a> and would not exist without their help. Lifepillar has my heartfelt thanks for their tremendous contribution to this site and the Wireguard community.</p>
 <p>The original guide remains available <a href="/obsolete/wireguard-server-on-macos">here</a>. Please note that the original guide is no longer the recommended approach and remains available for historical preservation purposes <strong>only</strong>.</p>
+</div>
+
+<div class="admonition blue">
+<p class="admonition-title">Notice: May 12, 2020</p>
+<p>Please be aware that at present the guide's traffic routing instructions route through IPv4 traffic <em>only</em>. That means IPv6-exclusive hosts will be inaccessible to connected peers configured with this guide. An update's in progress to include more comprehensive traffic routing instructions to properly route both IPv4 and IPv6 traffic.</p>
+<p>Many thanks to <a href="https://fiveone.org">Jeremy Quinn</a> for detecting this oversight.</p>
 </div>
 
 <figure markdown="1" class="inline shadow">
@@ -91,7 +97,7 @@ pfctl <span class="nt">-X</span> <span class="k">${</span><span class="nv">TOKEN
     <div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight wrap"><code><span class="gp">$</span><span class="w"> </span>brew <span class="nb">install </span>wireguard-tools
 </code></pre></div></div>
     Note that the command line interface for Wireguard is not optional on the server, the <a href="https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&amp;mt=12">Wireguard App on the App Store</a> is <strong>not</strong> sufficient for managing a Wireguard server due to macOS's <a href="https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/AboutAppSandbox/AboutAppSandbox.html">sandbox restrictions</a>. (Specifically, the <code class="highlighter-rouge">PostUp</code> and <code class="highlighter-rouge">PostDown</code> directives&mdash;which this configuration relies on&mdash;are <a href="https://www.reddit.com/r/WireGuard/comments/bea47m/wireguard_macos_application_postuppostdown/"><strong>not</strong> supported</a> in the App Store's Wireguard App).</li>
-  <li>Generate a number of private and public key pairs equal to your server plus the number of peers you intend to use with the following commands:
+  <li>Generate a number of private and public key pairs for Wireguard to use. This number should be equal to the number of peers you want plus one for your server. You can use the following commands to accomplish this, which will spit the keys into your current directory:
     <div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span><span class="nb">umask </span>077 <span class="c"># Ensure credentials don't leak from possible race condition.</span>
 <span class="gp">$</span><span class="w"> </span>wg genkey | <span class="nb">tee </span>privatekey | wg pubkey <span class="o">&gt;</span> publickey</code></pre></div></div>
       For example, if you have just a single peer you intend to connect to your Wireguard VPN with, you should have two public and private keys pairs: one pair for your peer, and another pair for your server. Please ensure you keep these files in a safe and secure place, such as an <a href="https://support.apple.com/guide/disk-utility/create-a-disk-image-dskutl11888/mac">encrypted container</a>. If someone nasty gets them, they have complete remote access to your server!
