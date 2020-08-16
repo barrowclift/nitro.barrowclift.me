@@ -17,7 +17,7 @@
 	<!-- Favicons -->
 	<link rel="mask-icon" href="{{ site.baseurl }}/pinned-tab.svg" color="#000000" />
 	<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
-	<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.jpg" />
 
 	<!-- CSS -->
 	{% if jekyll.environment == "development" %}
@@ -37,7 +37,7 @@
 	{% if page.image %}
 	<meta property="og:image" content="{{ site.dropbox }}/{{ page.image }}"/>
 	{% else %}
-	<meta property="og:image" content="{{ site.url }}/share-banner.png"/>
+	<meta property="og:image" content="{{ site.url }}/share-banner.jpg"/>
 	{% endif %}
 	<meta property="og:site_name" content="{{ site.title }}" />
 	<meta property="fb:admins" content="1665270112" />
@@ -50,7 +50,7 @@
 	{% if page.image %}
 	<meta name="twitter:image" content="{{ site.dropbox }}/{{ page.image }}" />
 	{% else %}
-	<meta name="twitter:image" content="{{ site.url }}/share-banner.png" />
+	<meta name="twitter:image" content="{{ site.url }}/share-banner.jpg" />
 	{% endif %}
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' | prepend: site.baseurl | replace: '//', '/' }}" />
 </head>
