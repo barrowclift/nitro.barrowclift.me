@@ -3,7 +3,7 @@ layout: base
 ---
 
 <h1>
-	<time itemprop="dateCreated">{{ page.date | date: "%B %-d, %Y" }}</time>
+	<time title="{{ page.date | date_to_rfc822 }}" itemprop="dateCreated">{{ page.date | date: "%B %-d, %Y" }}</time>
 	{% if page.link %}
 	<a href="{{ page.link }}">{{ page.title }} ↦</a>
 	{% else %}
