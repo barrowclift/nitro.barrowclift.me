@@ -344,14 +344,14 @@ Albums' widget support is world-class, featuring not one, not two, but *three* d
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-1.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-1.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-1.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-1.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-1.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-1.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-1.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-1.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-1.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-1.png">
 </picture>
 </a>
 </figure>
@@ -361,14 +361,14 @@ To start, there's three "Now Playing" widgets, one for each of the three widget 
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-2.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-2.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-2.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-2.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-2.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-2.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-2.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-2.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-2.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-2.png">
 </picture>
 </a>
 </figure>
@@ -378,14 +378,14 @@ The next widget collection provided by Albums are "Quick Actions", which display
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-3.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-3.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-3.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-3.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/light-widget-composite-3.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-3.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-3.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-3.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-3.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/albums/dark-widget-composite-3.png">
 </picture>
 </a>
 </figure>
@@ -447,14 +447,14 @@ My prediction turned out wildly inaccurate; Mike did indeed go back to the drawi
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/light-comparison-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/light-comparison-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/light-comparison-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/light-comparison-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/light-comparison-composite.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/dark-comparison-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/dark-comparison-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/dark-comparison-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/dark-comparison-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/dark-comparison-composite.png">
 </picture>
 </a>
 <figcaption>Cs 5 screenshot on the left, Cs 6 (current) screenshot on the right.</figcaption>
@@ -467,14 +467,14 @@ Arguably, the new player view design is the most prominent change in Cs 6. The n
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/light-now-playing-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/light-now-playing-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/light-now-playing-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/light-now-playing-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/light-now-playing-composite.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/dark-now-playing-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/dark-now-playing-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/dark-now-playing-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/dark-now-playing-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/cs/dark-now-playing-composite.png">
 </picture>
 </a>
 </figure>
@@ -620,8 +620,8 @@ As far as small delights are concerned, I really appreciate that Doppler's dynam
 <figure class="no-shadow">
 <a href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/doppler-2/album-view-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/doppler-2/album-view-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/doppler-2/album-view-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/doppler-2/album-view-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/doppler-2/album-view-composite.png">
 </picture>
 </a>
 </figure>
@@ -691,14 +691,14 @@ That covers it; there's so little of interest here I'm quite frankly at a loss o
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-comparison-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-comparison-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-comparison-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-comparison-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-comparison-composite.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-comparison-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-comparison-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-comparison-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-comparison-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-comparison-composite.png">
 </picture>
 </a>
 <figcaption>One is Dot Music, the other is Cs 5. Can you tell which was which at a glance? I sure couldn’t.</figcaption>
@@ -713,14 +713,14 @@ Dot Music provides two widget collections to choose from with a single size vari
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-widget-composite-1.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-widget-composite-1.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-widget-composite-1.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-widget-composite-1.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-widget-composite-1.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-widget-composite-1.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-widget-composite-1.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-widget-composite-1.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-widget-composite-1.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-widget-composite-1.png">
 </picture>
 </a>
 </figure>
@@ -730,14 +730,14 @@ Compared to the widgets provided by other players, Dot Music's "Now Playing" wid
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-widget-composite-2.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-widget-composite-2.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-widget-composite-2.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-widget-composite-2.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/light-widget-composite-2.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-widget-composite-2.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-widget-composite-2.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-widget-composite-2.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-widget-composite-2.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/dot-music/dark-widget-composite-2.png">
 </picture>
 </a>
 </figure>
@@ -893,8 +893,8 @@ Longplay's widget's are as unique as the app. Like the app, the experience is tr
 <figure class="no-shadow">
 <a href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/longplay/widget-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/longplay/widget-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/longplay/widget-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/longplay/widget-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/longplay/widget-composite.png">
 </picture>
 </a>
 </figure>
@@ -993,14 +993,14 @@ Marvis Pro boasts the most flexible collection of music player widgets you can f
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-1.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-1.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-1.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-1.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-1.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-1.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-1.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-1.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-1.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-1.png">
 </picture>
 </a>
 </figure>
@@ -1010,14 +1010,14 @@ Marvis Pro boasts the most flexible collection of music player widgets you can f
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-2.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-2.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-2.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-2.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-2.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-2.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-2.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-2.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-2.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-2.png">
 </picture>
 </a>
 </figure>
@@ -1029,14 +1029,14 @@ Like the "Now Playing" widgets, the "Section" widgets sport a myriad of customiz
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-3.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-3.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-3.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-3.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/light-widget-composite-3.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-3.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-3.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-3.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-3.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/marvis-pro/dark-widget-composite-3.png">
 </picture>
 </a>
 </figure>
@@ -1099,8 +1099,8 @@ Settings saw substantial improvements this year, starting with the new customiza
 <figure class="no-shadow">
 <a href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/music-player-x/custom-themes-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/music-player-x/custom-themes-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/music-player-x/custom-themes-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/music-player-x/custom-themes-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/music-player-x/custom-themes-composite.png">
 </picture>
 </a>
 <figcaption>
@@ -1190,8 +1190,8 @@ Aside from the "Library" tab switching locations, nothing else in Music.app's lo
 <figure class="no-shadow">
 <a href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/music-app/widget-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/music-app/widget-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/music-app/widget-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/music-app/widget-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/music-app/widget-composite.png">
 </picture>
 </a>
 </figure>
@@ -1264,14 +1264,14 @@ The rest of Picky not addressed in the 4.0 update remains the same as it was las
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/light-now-playing-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/light-now-playing-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/light-now-playing-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/light-now-playing-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/light-now-playing-composite.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/dark-now-playing-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/dark-now-playing-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/dark-now-playing-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/dark-now-playing-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/dark-now-playing-composite.png">
 </picture>
 </a>
 </figure>
@@ -1287,8 +1287,8 @@ Picky provides a respectable array of widget collections to choose from, althoug
 <figure class="no-shadow">
 <a href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-1.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-1.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-1.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-1.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-1.png">
 </picture>
 </a>
 </figure>
@@ -1298,8 +1298,8 @@ The first widget collection provided by Picky is "Recently Added", offered in bo
 <figure class="no-shadow">
 <a href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-2.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-2.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-2.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-2.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-2.png">
 </picture>
 </a>
 </figure>
@@ -1309,8 +1309,8 @@ The second widget collection is "Recently Played", also offered in both medium a
 <figure class="no-shadow">
 <a href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-3.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-3.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-3.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-3.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/picky/widget-composite-3.png">
 </picture>
 </a>
 </figure>
@@ -1372,14 +1372,14 @@ Its individuality doesn't stop there; the player view is also unique, featuring 
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/light-player-view-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/light-player-view-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/light-player-view-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/light-player-view-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/light-player-view-composite.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/dark-player-view-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/dark-player-view-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/dark-player-view-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/dark-player-view-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/dark-player-view-composite.png">
 </picture>
 </a>
 <figcaption>The “Modern” player view appearance.</figcaption>
@@ -1392,14 +1392,14 @@ There's more yet to discover in Plum's player view; Plum is the only player avai
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/light-classic-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/light-classic-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/light-classic-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/light-classic-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/light-classic-composite.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/dark-classic-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/dark-classic-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/dark-classic-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/dark-classic-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/plum/dark-classic-composite.png">
 </picture>
 </a>
 <figcaption>The “Classic” player view appearance.</figcaption>
@@ -1490,14 +1490,14 @@ The rest of the app remains mostly the same as it was last year. While I'm disap
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/light-album-view-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/light-album-view-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/light-album-view-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/light-album-view-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/light-album-view-composite.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/dark-album-view-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/dark-album-view-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/dark-album-view-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/dark-album-view-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/dark-album-view-composite.png">
 </picture>
 </a>
 </figure>
@@ -1511,14 +1511,14 @@ Power Player supports a single widget for each of the three size classes.
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/light-widget-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/light-widget-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/light-widget-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/light-widget-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/light-widget-composite.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/dark-widget-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/dark-widget-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/dark-widget-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/dark-widget-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/power-player/dark-widget-composite.png">
 </picture>
 </a>
 </figure>
@@ -1587,8 +1587,8 @@ In an effort to avoid copy/pasting my issues with the design from last year (whi
 <figure class="no-shadow">
 <a href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/sathorn/player-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/sathorn/player-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/sathorn/player-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/sathorn/player-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/sathorn/player-composite.png">
 </picture>
 </a>
 <figcaption>“Light Blur”, “Deep Blur”, and “Dark Blur”. Pick your poison.</figcaption>
@@ -1656,14 +1656,14 @@ It may seem puzzling to consolidate what was previously five discrete tab bar it
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/songowl/light-paths.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/songowl/light-paths.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/songowl/light-paths.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/songowl/light-paths.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/songowl/light-paths.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/songowl/dark-paths.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/songowl/dark-paths.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/songowl/dark-paths.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/songowl/dark-paths.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/songowl/dark-paths.png">
 </picture>
 </a>
 <figcaption>SongOwl’s “Paths” menu and the somewhat limited “Grouping” and “Sorting” options that can be applied to any given path.</figcaption>
@@ -1767,14 +1767,14 @@ Soor offers a generous bounty of *three* whole widget collections to choose from
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-1.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-1.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-1.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-1.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-1.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-1.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-1.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-1.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-1.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-1.png">
 </picture>
 </a>
 </figure>
@@ -1784,14 +1784,14 @@ The "Now Playing" widget collection are the first available in Soor, all of whic
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-2.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-2.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-2.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-2.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-2.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-2.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-2.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-2.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-2.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-2.png">
 </picture>
 </a>
 </figure>
@@ -1801,14 +1801,14 @@ The next widget collection provided is a "Magic Mix" button grid, which on the s
 <figure class="no-shadow">
 <a class="show-when-light" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-3.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-3.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-3.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-3.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/light-widget-composite-3.png">
 </picture>
 </a>
 <a class="show-when-dark" href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-3.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-3.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-3.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-3.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/soor/dark-widget-composite-3.png">
 </picture>
 </a>
 </figure>
@@ -1862,8 +1862,8 @@ I could forgive the premium service shilling if there was anything of substance 
 <figure class="no-shadow">
 <a href="{{ site.dropbox }}/third-annual-ios-music-player-showcase/vox/library-composite.webp">
 <picture>
-  <source srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/vox/library-composite.webp">
-  <img src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/vox/library-composite.png">
+  <source type="image/webp" srcset="{{ site.dropbox }}/third-annual-ios-music-player-showcase/vox/library-composite.webp">
+  <img type="image/png" src="{{ site.dropbox }}/third-annual-ios-music-player-showcase/vox/library-composite.png">
 </picture>
 </a>
 </figure>
