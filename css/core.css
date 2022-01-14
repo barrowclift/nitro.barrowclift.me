@@ -289,6 +289,10 @@ time {
     color: rgb(144, 144, 144);
     text-transform: uppercase;
 }
+sup { 
+    vertical-align: super;
+    font-size: smaller;
+}
 p,
 blockquote,
 figcaption,
