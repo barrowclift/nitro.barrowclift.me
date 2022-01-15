@@ -4,6 +4,10 @@ layout: base
 
 ## Change Log
 
+### January 15<sup>th</sup>, 2022
+
+In the [Recommendations](/article/fourth-annual-ios-music-player-showcase#recommendations) section, reader Stephen Bowling wrote in to report both [Cs Music](https://apps.apple.com/us/app/cs-music-player/id924491991)'s and [Musens](https://apps.apple.com/app/musens/id1560526260)' links were incorrectly pointing to other apps. Those apps' links now correctly point to their respective App Store listings.
+
 ### January 14<sup>th</sup>, 2022
 
 In [Vinyl Fetish](/article/fourth-annual-ios-music-player-showcase#vinyl-fetish)'s section, [Germán](https://twitter.com/VinylFetishApp) (Vinyl Fetish's developer) wrote in to report a case where I accidentally referred to the app as [Vinyls](/article/fourth-annual-ios-music-player-showcase#vinyls). This slip of the keyboard has been corrected.
