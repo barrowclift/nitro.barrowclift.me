@@ -12,6 +12,7 @@ categories:
   - Music
   - Best Of
 timelocked: true
+force-early-timelock: true
 has_afterward: true
 ---
 
@@ -26,16 +27,16 @@ has_afterward: true
     }
 </style>
 
+<div class="admonition gray">
+<p>This is a slightly updated version of the original article which addresses minor factual errors and spelling mistakes. The full change log is available to view <a href="/notepad/fourth-annual-showcase-change-log">here</a>. Many thanks to all involved!</p>
+</div>
+
 <figure markdown="1" class="show-when-dark no-shadow">
 [![]({{ site.dropbox }}/fourth-annual-ios-music-player-showcase/dark-banner.jpg)]({{ site.dropbox }}/fourth-annual-ios-music-player-showcase/dark-banner.jpg)
 </figure>
 <figure markdown="1" class="show-when-light no-shadow">
 [![]({{ site.dropbox }}/fourth-annual-ios-music-player-showcase/light-banner.jpg)]({{ site.dropbox }}/fourth-annual-ios-music-player-showcase/light-banner.jpg)
 </figure>
-
-<div class="admonition gray">
-<p>This is a slightly updated version of the original article which addresses minor factual errors and spelling mistakes. The full change log is available to view <a href="/notepad/fourth-annual-showcase-change-log">here</a>. Many thanks to all involved!</p>
-</div>
 
 There's new and exciting developments every year in the realm of iOS third-party music players, and 2021 was no exception. While [2019](/post/second-annual-ios-music-player-competition) enjoyed an explosion of new players like [Power Player] and [Albums] that through time came to lead the space, [2020](/post/third-annual-ios-music-player-showcase) in contrast received only a modest handful of new players and is instead remembered for the impressive growth the established player base received that year. This past year, 2021, managed to do both with a dizzying array of five new players *and* impressive growth across nearly all existing players.
 
@@ -135,26 +136,26 @@ With the stage set, it's now finally time to dive into 2021's players. Let's get
     <ul>
       <li>New This Year
         <ul>
-          <li><a href="#--mixtapes">Mixtapes</a></li>
-          <li><a href="#--mpx-eq">MPX EQ</a></li>
-          <li><a href="#--musens">Musens</a></li>
+          <li><a href="#mixtapes">Mixtapes</a></li>
+          <li><a href="#mpx-eq">MPX EQ</a></li>
+          <li><a href="#musens">Musens</a></li>
         </ul>
       </li>
       <li>Established
         <ul>
-          <li><a href="#--albums">Albums</a></li>
-          <li><a href="#--cs music">Cs Music</a></li>
-          <li><a href="#--doppi">Doppi</a></li>
-          <li><a href="#--doppler">Doppler</a></li>
-          <li><a href="#--jetaudio">jetAudio</a></li>
-          <li><a href="#--longplay">Longplay</a></li>
-          <li><a href="#--marvis-pro">Marvis Pro</a></li>
-          <li><a href="#--music-player-x">Music Player X</a></li>
-          <li><a href="#--music.app">Music.app</a></li>
-          <li><a href="#--picky">Picky</a></li>
-          <li><a href="#--plum">Plum</a></li>
-          <li><a href="#--power-player">Power Player</a></li>
-          <li><a href="#--vinyl-fetish">Vinyl Fetish</a></li>
+          <li><a href="#albums">Albums</a></li>
+          <li><a href="#cs music">Cs Music</a></li>
+          <li><a href="#doppi">Doppi</a></li>
+          <li><a href="#doppler">Doppler</a></li>
+          <li><a href="#jetaudio">jetAudio</a></li>
+          <li><a href="#longplay">Longplay</a></li>
+          <li><a href="#marvis-pro">Marvis Pro</a></li>
+          <li><a href="#music-player-x">Music Player X</a></li>
+          <li><a href="#music.app">Music.app</a></li>
+          <li><a href="#picky">Picky</a></li>
+          <li><a href="#plum">Plum</a></li>
+          <li><a href="#power-player">Power Player</a></li>
+          <li><a href="#vinyl-fetish">Vinyl Fetish</a></li>
         </ul>
       </li>
     </ul>
@@ -546,9 +547,29 @@ The traditional browsers like "Albums" are close in appearance and navigation to
 
 Continuing on to the "More" page, it's a near carbon copy of the "More" page originally found on the legacy Music.app on iOS 7 and earlier. It's on this page extra browsers like songs and genres are accessible. However, in Mixtapes' case, a "Settings" menu item also makes an appearance on this page. Within "Settings" is a remarkably dense and deep tree of various behavioral and appearance options, including the ability to customize both the mini-player and full-player's controls and visuals, automatically skip & hide explicit tracks with its novel "family friendly mode", and even the ability to enable filtering by BPM for your smart mixes[^bpm]. It's also worth noting that Mixtapes offers a staggering 120 alternative app icons, the most extensive I've seen offered in any music player and easily beating out the previous leader, [Marvis Pro], by a whopping 80 icons. With Mixtapes, listeners who care deeply about maintaining a particular home screen aesthetic have never had a better chance of finding the perfect icon.
 
+<figure class="no-shadow">
+<picture class="show-when-light">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/mixtapes/light-icons-composite.webp">
+  <img title="Alternative icons in light mode" alt="Alternative icons in light mode" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/mixtapes/light-icons-composite.png">
+</picture>
+<picture class="show-when-dark">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/mixtapes/dark-icons-composite.webp">
+  <img title="Alternative icons in dark mode" alt="Alternative icons in dark mode" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/mixtapes/dark-icons-composite.png">
+</picture>
+<figcaption>Mixtapes offers an <em>insane</em> breadth of alternative icons to choose from. This isn’t even all of them.</figcaption>
+</figure>
+
 Now with a deeper understanding of Mixtapes' design, traditional navigation, and startlingly extensive suite of settings, it's now finally time to dive into the player's namesake: its "Mixes" page. On this page, listeners can of course make regular mixes (playlists) manually, which is the typical player-specific playlist management seen in other players like [Plum]. Alternatively, listeners can create "smart" mixes to have Mixtapes automatically populate those playlists by artist, album, year, or genre. For example, if I wanted to create a playlist of pop tracks from 2021, I could easily do so by creating a new smart mix with two filters, the first to only include tracks with the "pop" genre and the second to only include tracks with a year equal to "2021". It bears noting that this system pales in comparison to [Marvis Pro]'s and [Albums]' equivalents, with Marvis Pro supporting a whopping thirty-five different filter criteria to choose from in comparison to Mixtapes' sad selection of five. However, what is there works exactly as described, and such a small suite of criteria may be easily forgiven given the app has only been available for a few months and is sure to receive expanded capabilities in the coming years.
 
 That brings us finally to Mixtape's full-player, which by default features edge-to-edge album art, a deep album art blur as the background, and a modest suite of standard playback controls. The "deep blur" effect delivers variable results, sometimes looking incredible as is the case with [Yola](https://music.apple.com/us/artist/yola/203292917)'s [*Stand For Myself*](https://music.apple.com/us/album/stand-for-myself/1561240873) but other times looking nearly as bad as [Sathorn]'s full-player as is the case with [Bent Knee](https://music.apple.com/us/artist/bent-knee/474692510)'s [*Frosting*](https://music.apple.com/us/album/frosting/1588174160).
+
+<figure class="no-shadow">
+<picture>
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/mixtapes/player-composite.webp">
+  <img title="The full-player with a pleasing blur effect" alt="Image of the full-player with a pleasing blur effect" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/mixtapes/player-composite.png">
+</picture>
+<figcaption>The good, the bad, and the ugly.</figcaption>
+</figure>
 
 With that said, its batting average for good results remains well above the times it flops, and the functionality provided by the rest of the player more than makes up for those times.
 
@@ -561,6 +582,13 @@ Make no mistake, Mixtapes' young age reveals itself at times, such as with its s
 Unfortunately, Mixtapes does not properly support the iPad.
 
 #### Widgets
+
+<figure class="no-shadow">
+<picture>
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/mixtapes/widget-composite.webp">
+  <img title="Mixtapes' widgets" alt="Image of Mixtapes' widgets" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/mixtapes/widget-composite.png">
+</picture>
+</figure>
 
 Mixtapes offers a single "Now Playing" widget collection in three sizes. Like all "Now Playing" widgets, they're populated with the album art of the currently playing track and sometimes additional metadata (depending on the size of the widget). However, Mixtapes's widgets are by far the most bizarre take on this classic widget type I've seen to date.
 
@@ -639,6 +667,14 @@ Continuing our tour through the tab bar, while the equalizer is arguably not qui
 MPX EQ's choice of menu items may be unconventional, but its full-player is remarkably traditional in comparison. As you'd likely expect from other third-party players these days, it's launched from a mini-player that sits right atop the tab bar, but unfortunately its accompanying gesture animation is insanely janky and undeniably the worst in its class.
 
 After launching the full-player, apart for the peculiar inclusion of skip back and forward 15 second buttons typically found in podcast players and a curious waveform button between them, you'll only find essential controls and metadata, resulting in a pleasing minimal design not too far off from Music Player X's full-player. Upon tapping that alluring waveform button, listeners are greeted with a novel fullscreen visualizer, featuring just the album art, bare minimum playback controls, and one of half a dozen different visualizer styles. Unfortunately, despite my love of iOS music player visualization, MPX EQ's visualizer support leaves a lot to be desired. Swapping visualizer styles is near impossible to discover, forcing listeners to first pause playback while on the visualizer page, tap where the visualizer *would* be shown, then resume playback to switch visualizers; simply tapping the visualizer area alone doesn't work. If there's another way to switch visualizers, I couldn't figure it out in all my time using the app. Additionally, my preferred visualizer (the "flame") is broken in the current App Store build for my device size, resulting in the flame hilariously dying out like a fire without enough kindling after only a few seconds of playback. A single bum visualizer style alone wouldn't be cause for much disappointment (after all, there are quite a few styles in [jetAudio] that I don't care for), but unfortuantely every other visualizer style currently offered by MPX EQ are subjectively poor in comparison, leaving me with one broken visualizer I would otherwise have liked, a handful of subpar alternatives, and an objectively terrible interface to switch between them.
+
+<figure class="no-shadow">
+<picture>
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/mpx-eq/themes-composite.webp">
+  <img title="Various custom MPX EQ themes" alt="Image of various custom MPX EQ themes" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/mpx-eq/themes-composite.png">
+</picture>
+<figcaption>MPX EQ supports the theming engine originally found in Music Player X with some quality of life improvements, such as the ability to now save your custom themes.</figcaption>
+</figure>
 
 With the brief tour of MPX EQ complete, I can't help but feel dumbfounded disbelief at the asking subscription price and disappointment in comparison to its predecessor. Much of Music Player X's DNA is here, such as the delightful ability to customize the entire app's theme color, and MPX EQ undeniably refines that feature with the ability to save your themes. However, it falls short of sticking the landing in nearly every area to the point where the app in its current form feels closer to an early access beta than a finished, publicly available product. Until MPX EQ's rough edges are addressed, I can't see listeners other than Music Player X diehard fans considering the player as it exists today worth its asking price.
 
@@ -734,6 +770,17 @@ With just how much personality and value Musens offers today, though, it's perha
 Musens does indeed support the iPad, but unfortunately much like [Plum] its performance characteristics on iPad are dreadful to the point of being unusable. It's a real shame, since Musens on iPad does make a conscious effort to optimize the layout for the larger screen, such as its use of the native iPad sidebar and gorgeous fullscreen player view. But due to its abhorrent performance it's simply not ready for general use.
 
 #### Widgets
+
+<figure class="no-shadow">
+<picture class="show-when-light">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/musens/light-widget-composite.webp">
+  <img title="Musens' widgets in light mode" alt="Image of Musens' widgets in light mode" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/musens/light-widget-composite.png">
+</picture>
+<picture class="show-when-dark">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/musens/dark-widget-composite.webp">
+  <img title="Musens' widgets in dark mode" alt="Image of Musens' widgets in dark mode" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/musens/dark-widget-composite.png">
+</picture>
+</figure>
 
 As we've come to expect, Musens heavily takes after Music.app with its approach to widgets, but unfortunately unlike its core app experience it does not offer any improvements over Music.app's offerings, and are arguably worse overall.
 
@@ -831,6 +878,17 @@ Albums features a number of design tweaks to take full advantage of the iPad's l
 
 Albums' widgets have seen significant changes from last year. Albums now supports four unique widget collections of various sizes for you to choose from, and continues to contend with [Marvis Pro] and [Soor] for the title of richest music player widget support.
 
+<figure class="no-shadow">
+<picture class="show-when-light">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/light-widget-composite-1.webp">
+  <img title="Albums' 'Now Playing (Art)' widgets" alt="Image of Albums' 'Now Playing (Art)' widgets" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/light-widget-composite-1.png">
+</picture>
+<picture class="show-when-dark">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/dark-widget-composite-1.webp">
+  <img title="Albums' 'Now Playing (Art)' widgets" alt="Image of Albums' 'Now Playing (Art)' widgets" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/dark-widget-composite-1.png">
+</picture>
+</figure>
+
 The first of these collections is the "Now Playing (Art)" collection, which features just the currently playing album art in small and large widget sizes with a tasteful blurred border. While the large size is subjectively ridiculous like [Mixtapes]' large "Now Playing" widget, it's less onerous in Albums since it provides an alternative large "Now Playing" widget, allowing listeners to choose whichever one best fits their needs. The tap action is customizable, allowing you to do any one of the following upon tap (which most of the other collections also support):
 
 * Open App
@@ -839,9 +897,43 @@ The first of these collections is the "Now Playing (Art)" collection, which feat
 * Skip to Next Album
 * Skip to Next Song
 
+<figure class="no-shadow">
+<picture class="show-when-light">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/light-widget-composite-2.webp">
+  <img title="Albums' 'Now Playing (Info)' widgets" alt="Image of Albums' 'Now Playing (Info)' widgets" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/light-widget-composite-2.png">
+</picture>
+<picture class="show-when-dark">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/dark-widget-composite-2.webp">
+  <img title="Albums' 'Now Playing (Info)' widgets" alt="Image of Albums' 'Now Playing (Info)' widgets" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/dark-widget-composite-2.png">
+</picture>
+</figure>
+
 The second collection is an alternative to the first called "Now Playing (Info)", which for all four widget sizes features varying degrees of every kind of relevant "now playing" data you can imagine (album name, artist, song, track number, remaining duration, album art, etc.). While most are similar in use, the extra-large widget on iPad uniquely includes playback controls to play/pause, skip to the next track, and skip to the next album (though unfortunately these controls are not available as an option for the smaller sizes). To top it all off, the remaining duration counts down in close approximation along with your playback, a remarkable achievement given Apple's strict widget API limitations.
 
+<figure class="no-shadow">
+<picture class="show-when-light">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/light-widget-composite-3.webp">
+  <img title="Albums' 'Quick Action' widgets" alt="Image of Albums' 'Quick Action' widgets" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/light-widget-composite-3.png">
+</picture>
+<picture class="show-when-dark">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/dark-widget-composite-3.webp">
+  <img title="Albums' 'Quick Action' widgets" alt="Image of Albums' 'Quick Action' widgets" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/dark-widget-composite-3.png">
+</picture>
+</figure>
+
 The third widget collection Albums' provides is its "Quick Action" collection, available in medium and large sizes. Each size exposes your custom "Quick Actions" and Albums' build-in ones to be easily launched from the widget itself. Quick Actions tapped in the widget work exactly like they do when tapped in the app; a random record will begin playing immediately according to whatever filtering criteria you set for that "Quick Action". In my opinion, these widgets are where "Quick Actions" shine brightest. I rarely find myself wanting to play a random record with "Quick Actions" when I'm already browsing around in the app, but I frequently find myself in the mood to do so when these "Quick Actions" are readily available with just a tap right from my home screen.
+
+<figure class="no-shadow">
+<picture class="show-when-light">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/light-widget-composite-4.webp">
+  <img title="Albums' 'Collection' widgets" alt="Image of Albums' 'Collection' widgets" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/light-widget-composite-4.png">
+</picture>
+<picture class="show-when-dark">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/dark-widget-composite-4.webp">
+  <img title="Albums' 'Collection' widgets" alt="Image of Albums' 'Collection' widgets" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/dark-widget-composite-4.png">
+</picture>
+</figure>
+
 
 Albums' fourth and final widget collection is its "Collection" collection, available in every size except small. This collection lets you randomly display albums for nearly any collection Albums' provides in the app. If you can view it in Albums, chances are you can display its contents with these widgets. Albums displayed in each of the four widget sizes are discretely selectable; your currently selected tap action will be applied to whatever particular album you select in the widget (a feature which similar widgets from other players like [Longplay] shockingly lack). While this particular widget class isn't one I tend to place in my own home screen, this level of flexibility is commendable and sure to delight those that love displaying their library's albums in widgets.
 
@@ -866,6 +958,17 @@ CarPlay support was additionally rolled out this year. While a tremendous new fe
 While I don't own a car, I do occasionally rent one for vacations, and Adam's stated goals with the "Albums" tab is *exactly* what I do today; before beginning the trip, I queue up every album I want to listen to on the ride, so I eagerly await the ability to make on-the-fly changes at red lights or quick gas stops without needing to fiddle with my phone.
 
 Aside from widget updates (covered above in the dedicated ["Widgets"](#widgets) section), the final major change of note this year was the introduction of listener reports. No doubt heavily inspired by the yearly ["Spotify Wrapped"](https://www.spotify.com/us/wrapped/), Albums now provides its own "wrapped"-like reports and can be adjusted for any arbitrary time period (not just the past year). The feature works remarkably well, displaying numerical data such as number of albums played and hours listened, a gorgeous album grid of your top albums by play count, numerous bar charts showing top artists, top genres, and more. It's a feast for the eyes and is a delightful way to gain insight into your listening habits from the past year you may not even have been aware of. In my case, I discovered I apparently only listened to albums in my library 51 days out of the year and had [Tyler, the Creator](https://music.apple.com/us/artist/tyler-the-creator/420368335) on heavy rotation ("[*CALL ME IF YOU GET LOST*](https://music.apple.com/us/album/call-me-if-you-get-lost/1573484415), B!#%&"). If you spend even a bit of your listening time on an iPhone or iPad, it's well worth the walk down memory lane.
+
+<figure class="no-shadow">
+<picture class="show-when-light">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/light-report-composite.webp">
+  <img title="My Albums' listening report for 2021 in light mode" alt="Image of my Albums' listening report for 2021 in light mode" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/light-report-composite.png">
+</picture>
+<picture class="show-when-dark">
+  <source type="image/webp" srcset="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/dark-report-composite.webp">
+  <img title="My Albums' listening report for 2021 in dark mode" alt="Image of my Albums' listening report for 2021 in dark mode" type="image/png" src="{{ site.dropbox }}/fourth-annual-ios-music-player-showcase/albums/dark-report-composite.png">
+</picture>
+</figure>
 
 #### Personal Assessment
 
