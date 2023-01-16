@@ -74,11 +74,17 @@ pre {
     margin-left: 1.8rem;
     border-left: 2px solid rgb(216, 216, 216);
     overflow-x: scroll;
+    font-size: 0.85em;
+}
+pre mark,
+pre code {
+    font-size: 1em;
 }
 mark,
 code {
     padding: 0.1rem 0.5rem;
     border-radius: 0.25em;
+    font-size: 0.9em;
 }
 mark,
 code {
@@ -573,7 +579,6 @@ tr:last-child td {
     }
     pre {
         overflow-x: unset;
-        font-size: 1.8rem;
     }
     pre code {
         display: inline-block;
