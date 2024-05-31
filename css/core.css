@@ -60,7 +60,6 @@ html {
      * is 10px. So, 1.6rem = 16px, 1.1rem = 11px, etc.
      */
     font-size: 62.5%;
-    /*font-family: Tahoma, Verdana, Segoe, sans-serif;*/
     font-family: -apple-system, BlinkMacSystemFont, Tahoma, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     color: rgb(24, 24, 24);
     background-color: white;
@@ -172,7 +171,6 @@ figure video {
 menu {
     text-align: center;
     margin-top: 1.8rem;
-    /*margin-bottom: 3.6rem;*/
 }
 #logo {
     margin-top: 1.8rem;
@@ -183,25 +181,25 @@ menu {
     text-decoration: none;
 }
 #logo:after {
-    transition: opacity 150ms cubic-bezier(0.165, 0.165, 0.44, 0.44), transform 150ms cubic-bezier(0.165, 0.165, 0.44, 0.44);
+    transition: opacity 300ms ease-in, transform 150ms ease-in;
     opacity: 0;
     transform: scale(0.5);
-    background-size: contain;
     z-index: -5;
     top: 1.5rem;
     left: calc(50% - 12.9rem);
     height: 9rem;
     width: 9rem;
-    background-repeat: no-repeat;
     position: absolute;
-    /*top: 0.6rem;
-    left: calc(50% - 13.75rem);
-    height: 10.8rem;
-    width: 10.8rem;*/
     content: "";
-    background-image: url("/images/logo/light-rainbow-watercolor.png");
+
+    filter: blur(1em) saturate(200%) hue-rotate(0deg);
+    background: conic-gradient(hsl(3, 100%, 59%), hsl(30, 100%, 50%), hsl(48, 90%, 50%), hsl(130, 60%, 50%), hsl(211, 100%, 50%), hsl(280, 68%, 60%), hsl(3, 100%, 59%));
+    background: conic-gradient(color(display-p3 1 0.23137255 0.18823529), color(display-p3 1 0.58431373 0), color(display-p3 0.94901961 0.76862745 0.05882353), color(display-p3 0.20392157 0.78039216 0.34901961), color(display-p3 0 0.47843137 1), color(display-p3 0.68627451 0.32156863 0.87058824), color(display-p3 1 0.23137255 0.18823529));
+    border-radius: 100%;
+    animation: rainbowCycle 10s infinite linear;
+    animation-play-state: paused;
 }
-a#logo:hover #mac {
+#logo:hover #mac {
     transform: scale(1.075);
 }
 #mac {
@@ -223,7 +221,7 @@ a#logo:hover #mac {
     margin-left: 0.5rem;
 }
 #logo-eye-opened,
-a#logo:hover #logo-eye-closed {
+#logo:hover #logo-eye-closed {
     opacity: 1;
 }
 #logo-eye-closed,
@@ -231,8 +229,17 @@ a#logo:hover #logo-eye-closed {
     opacity: 0;
 }
 #logo:hover:after {
-    opacity: 1;
+    opacity: 0.5;
     transform: scale(1);
+    animation-play-state: running;
+}
+@keyframes rainbowCycle {
+    0% {
+        filter: blur(1em) saturate(200%) hue-rotate(0deg);
+    }
+    100% {
+        filter: blur(1em) saturate(200%) hue-rotate(-360deg);
+    }
 }
 #sunglasses,
 #smirk {
@@ -700,9 +707,6 @@ tr:last-child td {
     }
     .admonition.yellow {
         background-color: rgba(255, 214, 10, 0.20);
-    }
-    #logo:after {
-        background-image: url("/images/logo/dark-rainbow-watercolor.png");
     }
     kbd,
     table th {

@@ -87,7 +87,7 @@ export PS1="Shteve:${CYAN}\w${RED}\n\$ ${NORMAL}"
 Functions
 ---------
 
-Now you've got your Terminal look and feel set just the way you like, what next? Well, I'd say the next most important change you could make is adding functions to your `.bashrc`	to encapsulate those often lengthy, horrid Unix commands into a much nicer function.
+Now you've got your Terminal look and feel set just the way you like, what next? Well, I'd say the next most important change you could make is adding functions to your `.bashrc` to encapsulate those often lengthy, horrid Unix commands into a much nicer function.
 
 Let's take compression, for example. The proper command to compress a tar of a given file in Unix is `tar czf ${YOUR_FILE}`. Decompressing and extracting the file back out is just as cryptic with `tar xjf ${YOUR_FILE}`. I have never once been able to remember those infuriating arbitrary series of characters that tells the tar command to actually do what should be the default action. Thankfully with functions I don't need to, and now you don't have to either!
 
