@@ -63,7 +63,7 @@ How on earth is this even possible given how we know our Macs or PCs manage open
 Suspension and the "One True Open App"
 --------------------------------------
 
-In reality, all but one of the apps you see in the multitasking list are actually in what Apple calls a "suspended state". While OS X and Windows allow you to keep as many apps as you want open and running at any given time iOS actually only allows __one__ open app at any given time &mdash; the one you're currently looking at and using[^exceptions]. All others are effectively "frozen" in time and memory.
+In reality, all but one of the apps you see in the multitasking list are actually in what Apple calls a "suspended state". While OS X and Windows allow you to keep as many apps as you want open and running at any given time iOS actually only allows __one__ open app at any given time&mdash;the one you're currently looking at and using[^exceptions]. All others are effectively "frozen" in time and memory.
 
 This means all you see in the multitasking list is images of your apps frozen in time as if you took photos of them. In this state it's no longer using any battery and also has no effect on the speed of the app you're currently running. Again, these apps are not running or using battery, so there's no need to force quit them from the multitasking list.
 
@@ -97,7 +97,7 @@ This of course poses a potential problem since there's bound to be some apps you
 [![iOS Background App Refresh settings screens]({{ site.dropbox }}/multitasking-misconceptions/background-app-refresh-composite.png)]({{ site.dropbox }}/multitasking-misconceptions/background-app-refresh-composite-large.jpg)
 </figure>
 
-Another thing to consider when you're deciding which apps to turn Background App Refresh off for &mdash; if any at all &mdash; is how many apps are currently enabled for background refresh in the list. If you have more than twenty or so with Background App Refresh turned on you might want to consider trimming that number down. While any individual app only takes a tiny, negligible amount of battery to background refresh ([usually](https://www.macstories.net/linked/the-background-data-and-battery-usage-of-facebooks-ios-app/)) this number *can* add up if there's a lot of them.
+Another thing to consider when you're deciding which apps to turn Background App Refresh off for&mdash;if any at all&mdash;is how many apps are currently enabled for background refresh in the list. If you have more than twenty or so with Background App Refresh turned on you might want to consider trimming that number down. While any individual app only takes a tiny, negligible amount of battery to background refresh ([usually](https://www.macstories.net/linked/the-background-data-and-battery-usage-of-facebooks-ios-app/)) this number *can* add up if there's a lot of them.
 
 Quit Quitting Apps on iOS
 -------------------------

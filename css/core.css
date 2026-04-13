@@ -474,6 +474,19 @@ main video,
                 0 4px 4px rgba(0,0,0,0.16),
                 0 8px 8px rgba(0,0,0,0.20);
 }
+.array {
+    text-align: center;
+}
+.array img,
+.array video {
+    width: 30%;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+.array.duo img,
+.array.duo video {
+    width: 45%;
+}
 .admonition.red {
     background-color: rgba(255, 59, 48, 0.15);
 }
